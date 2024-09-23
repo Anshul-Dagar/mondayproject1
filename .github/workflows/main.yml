@@ -3,6 +3,7 @@ name: Scrape TechCrunch
 on:
   schedule:
     - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch: null
 
 jobs:
   scrape:
